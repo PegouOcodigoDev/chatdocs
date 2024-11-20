@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "chatdocs"
+version = "0.1.0"
+description = ""
+authors = ["Eduardo <eduardojunior010757@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+faiss-cpu = "^1.9.0.post1"
+streamlit = "^1.40.1"
+langchain = "^0.3.7"
+langchain-community = "^0.3.7"
+langchain-huggingface = "^0.1.2"
+langchainhub = "^0.1.21"
+langchain-openai = "^0.2.9"
+langchain-ollama = "^0.2.0"
+pypdf = "^5.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

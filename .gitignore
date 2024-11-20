@@ -1,0 +1,28 @@
+# Python
+*.pyc
+*.pyo
+__pycache__
+*.pyd
+*.sqlite3
+
+# Poetry
+.poetry/
+.virtualenvs/
+
+# Environment variables file
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.log
+*.pot
+*.mo
